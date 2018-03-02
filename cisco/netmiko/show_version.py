@@ -21,3 +21,5 @@ net_connect = ConnectHandler(**device)
 show_version = net_connect.send_command('show version')
 
 print(show_version)
+
+net_connect.disconnect()

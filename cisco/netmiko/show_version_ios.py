@@ -25,3 +25,5 @@ print(show_version_ios[0])
 print("-" *60)
 print("IOS\t:", show_version_ios[1].strip())
 print("Version\t:", show_version_ios[2].strip().split()[1])
+
+net_connect.disconnect()
