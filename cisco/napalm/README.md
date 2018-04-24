@@ -8,7 +8,7 @@ python get_facts.py -h
 &nbsp;
 Example:
 ```
-python get_facts0.py -ip 10.10.1.1 -u hanif -p hanif -e hanif
+python get_facts.py -ip 10.10.1.1 -u hanif -p hanif -e hanif
 ```
 
 ```
