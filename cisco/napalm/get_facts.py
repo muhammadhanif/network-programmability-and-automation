@@ -34,9 +34,9 @@ def run(host, username, password, enable):
         print("We can't access {}. Check your credentials.".format(host))
 
 if __name__ == '__main__':
-    description = 'To run this script, \
-                  you must have credentials (username, password, and enable) \
-                  for accessing your cisco device through SSH.'
+    description = "This script will give you device information:\
+                   uptime (in seconds), vendor, model, hostname, fqdn, \
+                   os_version, serial_number, and interface_list"
 
     parser = argparse.ArgumentParser(description = description)
     parser.add_argument("-ip", "--ip", required=True, help="ip address of cisco device")
