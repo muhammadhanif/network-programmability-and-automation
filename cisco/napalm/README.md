@@ -2,7 +2,9 @@
 ### Requirements
 * Your cisco device can be accessed through SSH.
 * You must have credentials (username, password, and enable) for accessing your cisco device.
+* Python Libraries: [requirements.txt](https://github.com/muhammadhanif/network-programmability-and-automation/blob/master/cisco/napalm/requirements.txt)
 
+### How to Run
 To run the script, you must add arguments (IP address, username, password, and enable).
 
 Example:
