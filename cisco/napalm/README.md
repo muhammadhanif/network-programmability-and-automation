@@ -10,6 +10,8 @@ Example:
 python script.py -ip 10.10.1.1 -u hanif -p hanif -e hanif
 ```
 
+or
+
 ```
 python script.py --ip 10.10.1.1 --username hanif --password hanif --enable hanif
 ```
@@ -42,5 +44,5 @@ This script will give you interface information:
 
 How to run:
 ```
-python get_facts.py -h
+python get_interfaces.py -h
 ```
